@@ -1,0 +1,10 @@
+curl -i -X POST \
+   -H "Content-Type:application/json" \
+   -d \
+'{
+  "parameter_list" : [-1,1,0,118,150000,0,1,38]
+}
+' \
+ 'http://127.0.0.1:5000/api/v1/prediction'
+
+ 
